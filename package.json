@@ -1,0 +1,29 @@
+{
+  "name": "traversy-twitter-socketio",
+  "version": "1.0.0",
+  "description": "traversy media twitter scrapper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index",
+    "dev": "nodemon server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montgomeryrd/traversy-twitter-socketio.git"
+  },
+  "author": "Richard Montgomery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montgomeryrd/traversy-twitter-socketio/issues"
+  },
+  "homepage": "https://github.com/montgomeryrd/traversy-twitter-socketio#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "needle": "^2.5.2",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
