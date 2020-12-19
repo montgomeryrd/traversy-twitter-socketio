@@ -1,5 +1,4 @@
 const needle = require('needle');
-const { isObject } = require('util');
 const config = require('dotenv').config();
 const TOKEN = process.env.TWITTER_BEARER_TOKEN;
 
